@@ -11,7 +11,7 @@
  ```bash
  ng ajouter @angular/pwa
  ```
-# Installez le serveur http globalement ou dans votre projet, vous en avez besoin pour exécuter le service worker
+# Installez le serveur http  dans votre projet, vous en avez besoin pour exécuter le service worker
  ```
  bash npm i -g serveur http
  ```
