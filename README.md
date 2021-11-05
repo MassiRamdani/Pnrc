@@ -1,27 +1,32 @@
-# AngularPwaDemo
+# Pwa Pnrc
+# Créez une application angular
+ ```bash 
+ 
+ ng new angular-pwa-demo
+ ```
+# ajoutez-y du PWA
+  ```bash
+  cd angular-pwa-demo 
+  ```
+ ```bash
+ ng ajouter @angular/pwa
+ ```
+# Installez le serveur http globalement ou dans votre projet, vous en avez besoin pour exécuter le service worker
+ ```
+ bash npm i -g serveur http
+ ```
+# Créez votre application et exécutez-la sur le serveur http
+ ```
+ bash ng build --prod
+ ```
+ ```
+ bash http-server dist/angular-pwa-demo -o
+ ```
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.13.
+# récupération de la base de données de l'an dernier
+# créez 2 ou 3 groupes pour avancer sur le développement 
 
-## Development server
+## groupe 1 login et création de compte (Yasmine, Manel) 
+## groupe 2 carto et activité de rando (Dylan, Massinissa)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## pensez dés le départ au RWD pour que la consultation sur téléphone soit bien, sinon partir directement sur une PWA et voir pour réutiliser le code du cours de Q. Blondel
